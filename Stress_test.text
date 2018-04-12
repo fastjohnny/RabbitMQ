@@ -1,0 +1,5 @@
+1. Install java-1.8.0-openjdk  
+2. Download release from here -
+https://github.com/rabbitmq/rabbitmq-perf-test/releases  
+3. Extract and go - 
+   bin/runjava com.rabbitmq.perf.PerfTest -x 2 -y 4 -u "throughput-test-2" -a --id "test 2"
