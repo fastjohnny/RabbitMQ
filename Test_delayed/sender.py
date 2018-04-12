@@ -3,7 +3,7 @@ import pika
 
 credentials = pika.PlainCredentials('user', 'R2f9ytfGYbTK')
 
-connection = pika.BlockingConnection(pika.ConnectionParameters(host='10.254.64.69',port='5672',credentials=credentials))
+connection = pika.BlockingConnection(pika.ConnectionParameters(host=localhost',port=5672,credentials=credentials))
 
 channel = connection.channel()
 

@@ -6,7 +6,7 @@ message = ' '.join(sys.argv[1:]) or "Hello World!"
 
 credentials = pika.PlainCredentials('myuser', 'mypass')
 
-connection = pika.BlockingConnection(pika.ConnectionParameters(host='localhost',port='5672',credentials=credentials))
+connection = pika.BlockingConnection(pika.ConnectionParameters(host='localhost',port=5672,credentials=credentials))
 
 channel = connection.channel()
 
